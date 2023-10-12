@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#bloccofinale{
+    width: 75%;
+}
+.primo{
+display:flex;
+    align-items: center;
+}
+
+#bloccotesto{
+    padding-right: 220px;
+}
+
+#terzo{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: smaller;
+}
+
+.item1{
+    display: flex;
+    width: 80%;
+    font-size: smaller;
+    padding-right: 10px;
+}
+
+.item2{
+    width: 20%;
+}
+
+#item1 span:nth-child(3) {
+    margin: 1px;
+    background-color: blue;
+  }
+  
+
+  .item2 ion-icon {
+    padding-right: 10px; /* Aggiungi spazio a destra tra gli elementi */
+  }
+
+  #bloccocompleto{
+    padding-top: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+
+
+  #bloccofinalefoto img{
+    padding-right: 20px;
+    height: auto;
+    width: 50vb;
+    position: relative;
+  }
+
+#container1{
+    margin: 50px;
+    display: flex;
+
+}
+
+.itemcontainer1{
+    flex: 1;
+}
+
+.itemcontainer1:nth-child(1) {
+    flex: 2;
+}
+
+.itemcontainer1:nth-child(2) {
+    flex: 1;
+}
+
+#logomedium{
+    height: 25px;
+    width: auto;
+}
+
+.itemcontainer2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.itemcontainer2 button{
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 5px;
+    border: 1px solid black;
+    font-size:small;
+    background-color: white;
+}
+
+
+.itemcontainer2 div {
+    margin: 0 10px; /* per aggiungere tra le icone */
+}
+
+#section {
+    position: relative; /* aggiungo sempre posizione relativa */
+    display: flex;
+    justify-content: space-between;
+}
+
+#section::before {
+    content: "";
+    position: absolute;
+    top: -1px; /* trick per posizionare l'elemento pseudoelemento sopra l'elemento principale */
+    left: 0;
+    right: 0;
+    height: 5px; /* quanto è alta l'ombra */
+    background: rgba(56, 38, 38, 0.219); 
+}
+
+.sectioitem{
+    display: inline-block;
+}
+
+
+#buttonpiccolodiv{
+    border-radius: 15px;
+    overflow: hidden;
+    padding-top: 5px;
+    border: 1px solid black;
+    font-size:small;
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#buttonfollow{
+    border-radius: 15px;
+    overflow: hidden;
+    padding-top: 5px;
+    border: 1px solid black;
+    font-size:small;
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+
+#cta{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#cta img {
+    width: 30%;
+    padding-left: 35%;
+}
+
+#cta p {
+    text-align: center;
+    font-size: smaller;
+    color: gray;
+
+}
+
+
+#categorie {
+    line-height: 2; /* Imposta il valore desiderato per lo spazio tra le linee */
+}
+
+
+
+
+
+
+
+#navbar{
+    display: flex;
+}
+
+#navbar h3{
+    font-size: smaller;
+    margin: 10px;
+}
+
+hr{
+    margin-left: 0;
+    width: 98%;
+}
+
+#ultimotesto{
+    font-size: small;
+}
+
+
+#ultimo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
